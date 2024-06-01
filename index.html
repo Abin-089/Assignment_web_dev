@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Assignment</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="heading">AWARD WINNING</p>
+                <h1 class="main-heading">DIGITAL MARKETING AGENCY</h1>
+                <p class="lead">We provide comprehensive digital marketing solutions to enhance your business's online presence and drive growth. Our award-winning strategies are tailored to meet your unique needs.</p>
+            </div>
+            <div class="col-md-6">
+                <img id="project-image" src="images/image1.jpg" class="img-fluid" alt="Project Image">
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Us Section -->
+   <section class="container mt-5">
+    <button type="button" class="btn btn-primary btn-lg contact-us-btn" data-toggle="modal" data-target="#contactModal">
+        Contact Us
+    </button>
+
+    <!-- Modal container -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Talk To Us</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="https://getform.io/f/eapdklxa" method="POST">
+                        <div class="form-group">
+                            <label for="email">Work email</label>
+                            <input type="email" class="form-control transparent-input" id="email" name="email" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="first-name">First name</label>
+                                <input type="text" class="form-control transparent-input" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="last-name">Last name</label>
+                                <input type="text" class="form-control transparent-input" id="last-name" name="last-name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control transparent-input" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                            <label class="form-check-label" for="terms">
+                                I agree to Fyle's terms and conditions and provide consent to send me communication.
+                            </label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Contact Us</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- What We Do Section -->
+<section class="container mt-5 what-we-do-section">
+    <h2 class="text-left heading">WHAT WE DO</h2>
+    <h3 class="text-left sub-heading">SERVICES PROVIDE FOR YOU</h3>
+    <p class="text-center">We offer a range of high-quality services designed to meet your unique needs. 
+        Our expertise includes web design, creating attractive and user-friendly interfaces; web development,
+         delivering efficient and robust websites; and SEO services, optimizing your online presence 
+         to improve search engine rankings. Our team is dedicated to ensuring excellence in every project,
+         helping your business achieve greater visibility and growth. 
+        Discover how our tailored solutions can elevate your online presence and drive success.</p>
+    <div class="slider">
+        <div class="service-item">
+            <div class="service-box">
+                <img src="images/image2.png" class="img-fluid service-image" alt="Service 1">
+                <div class="service-overlay">
+                    <h3>Web Design</h3>
+                    <p>Attractive design, creative designs for modeling applications.</p>
+                    <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-box">
+                <img src="images/image3.jpg" class="img-fluid service-image" alt="Service 2">
+                <div class="service-overlay">
+                    <h3>Web Development</h3>
+                    <p>Efficient web development for modern businesses.</p>
+                    <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-box">
+                <img src="images/image4.png" class="img-fluid service-image" alt="Service 3">
+                <div class="service-overlay">
+                    <h3>SEO Services</h3>
+                    <p>Optimize your web presence for search engines.</p>
+                    <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dot-nav">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+    <!-- Our Project Section -->
+    <section id="why-we-are-best" class="container mt-5">
+        <h2 class="text-center heading">OUR PROJECT</h2>
+        <h3 class="text-center main-heading">WHY WE ARE BEST</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/image5.jpg" class="img-fluid" alt="Fruits on a table">
+            </div>
+            <div class="col-md-6">
+                <div class="text-content">
+                    <div class="text-item">
+                        <h4>Innovative Design</h4>
+                        <p class="text-words">Our projects showcase the latest trends and 
+                            innovations in the industry.
+                        </p>
+                    </div>
+                    <div class="text-item highlighted">
+                       <h4>Superior Quality</h4>
+                    <p class="text-words">We deliver high-quality results that meet and 
+                        exceed client expectations.</p>
+                    </div>
+                    <div class="text-item">
+                        <h4>Exceptional Strategy</h4>
+                        <p class="text-words">Our strategic approach ensures the success 
+                            of every project we undertake.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Growth Section -->
+    <section id="company-growth" class="container mt-5">
+        <h1 class="text-center heading">EXPERTS GROWTH</h1>
+        <h2 class="text-center main-heading">OUR COMPANY GROWTH</h2>
+        <div class="growth-stats d-flex justify-content-around">
+            <div class="stat">
+                <div class="stat-icon">❤️</div>
+                <p class="stat-number">199+</p>
+                <p class="stat-description">Satisfied Customers</p>
+            
+            </div>
+            <div class="stat">
+                <div class="stat-icon">⏰</div>
+                <p class="stat-number">1591+</p>
+  <p class="stat-description">Days of operation</p>
+
+            </div>
+            <div class="stat">
+                <div class="stat-icon">✔️</div>
+                <p class="stat-number">283+</p>
+  <p class="stat-description">Completed Projects</p>
+</div>
+            <div class="stat">
+                <div class="stat-icon">🏆</div>
+                <p class="stat-number">75+</p>
+  <p class="stat-description">Awards Won</p>
+</div>
+        </div>
+    </section>
+
+    <!-- JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
